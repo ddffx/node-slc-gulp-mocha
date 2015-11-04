@@ -1,5 +1,5 @@
 FROM node:0.12
-RUN npm install -g strongloop mocha gulp
+RUN npm install -g strongloop mocha gulp forever
 
 EXPOSE 3000
 
